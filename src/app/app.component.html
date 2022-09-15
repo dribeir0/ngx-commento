@@ -1,0 +1,97 @@
+<div>
+  <article>
+    <div style="margin-left: auto; margin-right: auto; text-align: center">
+      <img src="assets/images/logo.png" style="width: 128px" />
+      <h2>ngx-commento</h2>
+    </div>
+    <h3>About</h3>
+    <p>
+      <b
+        >ngx-commento is an angular 2+ wrapper for
+        <a href="https://commento.io/" target="_blank">commento.io</a>.
+      </b>
+    </p>
+    <p>
+      Commento is a discussion platform that you can embed on your blog, news
+      articles, and any place where you want your readers to add comments.
+      Commento is fast, lightweight, and privacy-focused; we'll never sell your
+      data, show ads, embed third-party tracking scripts, or inject affiliate
+      links. Features Privacy-focused Super lightweight, allowing for fast
+      pageloads Automatic spam filtering Review and approve or delete comments
+      through the moderation interface Modern interface with a clean design
+      OAuth support (Google login, for example) Custom CSS theming Import from
+      existing services (like Disqus) Completely free and open source (MIT Expat
+      license)
+    </p>
+    <h4>Features</h4>
+    <ul>
+      <li>Easy to configure</li>
+      <li>Privacy-focused</li>
+      <li>Super lightweight, allowing for fast pageloads</li>
+      <li>Automatic spam filtering</li>
+      <li>
+        Review and approve or delete comments through the moderation interface
+      </li>
+      <li>Modern interface with a clean design</li>
+      <li>OAuth support (Google login, for example)</li>
+      <li>Custom CSS theming</li>
+      <li>Import from existing services (like Disqus)</li>
+      <li>Completely free and open source (MIT Expat license)</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Installation</h3>
+    <div id="usage-tab-1" class="content original current">
+      <div class="import-text">
+        Firstly
+        <pre><code class="hljs">npm i --save ngx-commento</code></pre>
+      </div>
+
+      <div class="import-text">
+        Copy this HTML code and
+        <b> paste it in <code><</code><code>head></code></b> section of your
+        <code>index.html</code>.
+        <pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://cdn.commento.io/js/commento.js"</span> <span class="hljs-attr">data-auto-init</span>=<span class="hljs-string">"false"</span> <span class="hljs-attr">async</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+      </div>
+
+      <div class="import-text">
+        Import <code>NgxCommentoModule</code>.
+        <pre><code class="hljs">
+<span class="hljs-keyword">import</span> {{ '{' }} NgxCommentoModule } <span class="hljs-keyword">from</span> <span class="hljs-string">'ngx-commento'</span>;
+                
+<span class="hljs-meta">@NgModule</span>({{ '{' }}
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        BrowserModule,
+        NgxCommentoModule <span class="hljs-comment">//&lt;-- import this</span>
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> AppModule {{ '{' }} }
+</code></pre>
+      </div>
+
+      <div class="import-text">
+        In your component simply add
+        <pre><code class="html xml hljs"><span class="hljs-tag"
+          >&lt;<span class="hljs-name">ngx-commento</span>&gt;</span
+        ><span class="hljs-tag"
+          >&lt;/<span class="hljs-name">ngx-commento</span>&gt;</span
+        ></code></pre>
+      </div>
+      <div class="import-text">
+        <div class="text">
+          Voila! All your settings, themes, and comments would be automagically
+          loaded. Commento is mobile-responsive too, as it simply fills the
+          container it is put in.
+        </div>
+      </div>
+      <br />
+    </div>
+  </article>
+</div>
+<ngx-commento></ngx-commento>

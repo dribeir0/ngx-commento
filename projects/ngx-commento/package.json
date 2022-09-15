@@ -1,0 +1,30 @@
+{
+  "name": "ngx-commento",
+  "version": "0.0.4",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0"
+  },
+  "description": "Angular wrapper for commento - fast, lightweight comments.",
+  "bugs": {
+    "email": "kwiniarski97@gmail.com",
+    "url": "https://gitlab.com/kwiniarski97/ngx-commento"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "kwiniarski97@gmail.com",
+    "name": "Karol Winiarski",
+    "url": "https://ngx-ninja.online"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/kwiniarski97/ngx-commento.git"
+  },
+  "keywords": [
+    "comments",
+    "angular",
+    "commento"
+  ],
+  "homepage": "https://ngx-commento.surge.sh/",
+  "icon": "icon.png"
+}
